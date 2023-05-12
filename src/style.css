@@ -2,7 +2,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eee;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: 'Outfit', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /*header*/
   header {
@@ -21,7 +22,7 @@ body {
   }
   
  /* Estilos para el formulario de búsqueda */
-.searchForm {
+.searchForm  {
   display: flex;
   align-items: center;
 }
@@ -45,18 +46,59 @@ body {
 .searchForm button:hover {
   background-color: #555;
 }
-
-/* página de bienvenida */
+  
+/* Titulo */
   
 h1 {
-  font-size: 35px;
+  font-size: 40px;
   text-align: center;
   margin-bottom: 3rem;
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
+}
+
+#root {
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 100px;
+  margin-top: 25px;
+}
+
+#root img {
+  width: 17em;
+  height: 25em;
+  margin: 15px; 
+  border-radius: 4%;
+  display: flex;
+  box-shadow: 0px 0px 10px 2px rgb(116, 111, 111);
+  flex-flow: column wrap;
+  background-color: rgba(32, 30, 36);
+  cursor: pointer;
+  }
+
+#root h2 {
+    color: rgb(189, 186, 186);
+    font-size: 1em;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    } 
+
+#root img:hover  {
+    position: relative;
+    box-shadow: 0px 0px 30px 10px rgba(44, 44, 44, 0.658);
+    bottom: 15px;
 }
   
 /* footer */
@@ -71,14 +113,14 @@ footer {
   padding-top: 3px;
   position: sticky;
   z-index: 15;
-  
+
 }
 
-.logobottom {
+.logoBottom {
   margin-left: 15px;
 }
 
-.copyrighttext {
+.copyrightText {
   text-align: center;
   text-shadow: slategrey;
   margin-top: 40px;

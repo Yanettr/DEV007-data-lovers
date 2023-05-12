@@ -1,5 +1,4 @@
 import { getFilmsData } from './data.js';
-
 let filmsData = getFilmsData();
 
 filmsData.forEach(data => {
@@ -10,6 +9,14 @@ filmsData.forEach(data => {
   document.getElementById("root").appendChild(h2);
   document.getElementById("root"). appendChild(img);
 });
+
+
+
+
+
+
+
+
 
 
 

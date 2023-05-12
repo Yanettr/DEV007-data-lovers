@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Ghibli Dreams (Data Lovers)</title>
   </head>
 <body>
   <!-- header -->
   <header>
+   
     <img src="./img/banner.png" class="banner" alt="Banner de totoro en fondo turqueza - Ghibli Dreams ">
     </header>
       <!-- navegador -->
@@ -17,27 +21,40 @@
         <input type="text" name="search" placeholder="Search">
         <button type="submit">Search</button>
       </form>
-    </nav>
-    <main>
-<section class="Menu">
 
-</section>
+      <section class="btn" id="btn">
+        <label for="" class="producer"></label>
+        <select class="btnproducer" id="selectProducer">
+          <option disabled selected>Producer</option>
+          <option value="all" class="allProducer">All</option>
+          <option value="Isao Takahata" class="filterProducer">Isao Takahata</option>
+          <option value="Hayao Miyazaki" class="filterProducer">Hayao Miyazaki</option>
+          <option value="Toru Hara" class="filterProducer">Toru Hara</option>
+          <option value="Toshio Suzuki" class="filterProducer">Toshio Suzuki</option>
+          <option value="Yoshiaki Nishimura" class="filterProducer">Yoshiaki Nishimura</option>
+        </select>
+  
+        <label for="" class="order"></label>
+          <select class="btnOrder" id="selectOrder">
+            <option disabled selected>Order</option>
+            <option value="alphabetical" class="">A - Z</option>
+            <option value="alphabetical" class="alphabetical">Z - A</option>
+          </select>
+          </section>
+    </nav>
+      <main>
 
 <section class="title">
     <h1> WELCOME TO GHIBLI DREAMS</h1>
     <p>Studio Ghibli is a renowned Japanese animation studio known for its enchanting and visually stunning films. Here are some of their most beloved works!
 </section>
 
-<section clas="container">
+<section class="root" id="root">
 </section>
-<div id="root"></div>
 
 <footer>
-  <!--Logo foot-->
-  <img class="logobottom" src="img/Logofoot.png" alt="logo">
-  <!--Copyright-->
-  <p class="copyright">Created by Yanet y Yohana</p>
-  <!--Social Media-->
+  <img class="logoBottom" src="img/Logofoot.png" alt="logo">
+  <p class="copyrightText">Created by Yanet y Yohana</p>
   <ul class="socialfooter">
     <li><img src="img/instagram.png" alt="instagram"></li>
     <li><img src="img/twitter.png" alt="twitter"></li>
