@@ -1,25 +1,11 @@
-import { getFilmsData } from './data.js';
-let filmsData = getFilmsData();
-
-filmsData.forEach(data => {
-  const h2 = document.createElement('h2');
-  const img = document.createElement('img');
-  h2.textContent = data.title;
-  img.src = data.poster;
-  document.getElementById("root").appendChild(h2);
-  document.getElementById("root"). appendChild(img);
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+import ghibli from './data/ghibli/ghibli.js';
+//creación de nuevo objeto con map - definiendo las categorías - constante que guarda arreglo.
+export const getFilmsData = () => {
+  return ghibli.films.map(film => {
+    return {
+      title: film.title,
+      poster: film.poster,
+      description:film.description
+    }
+  });
+};

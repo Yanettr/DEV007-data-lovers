@@ -12,34 +12,46 @@
 <body>
   <!-- header -->
   <header>
-   
     <img src="./img/banner.png" class="banner" alt="Banner de totoro en fondo turqueza - Ghibli Dreams ">
     </header>
-      <!-- navegador -->
-    <nav>
-      <form class="searchForm" action="#" >
-        <input type="text" name="search" placeholder="Search">
-        <button type="submit">Search</button>
-      </form>
+     
+      <section class="header">
+        <a class="logo" href="./">
+          <img src="./img/mainimg.png" alt="mainimg">
+          <h2 class="name">Ghibli Dreams</h2>
+        </a>
+         <!-- navegador -->
+      
+          <nav class="menu">
+          <form class="searchForm" action="#" >
+            <input type="text" id="search" name="search" placeholder="Search">
+            <button type="submit">Search</button>
+          </form>
+          </nav>
 
-      <section class="btn" id="btn">
-        <label for="" class="producer"></label>
-        <select class="btnproducer" id="selectProducer">
-          <option disabled selected>Producer</option>
-          <option value="all" class="allProducer">All</option>
-          <option value="Isao Takahata" class="filterProducer">Isao Takahata</option>
-          <option value="Hayao Miyazaki" class="filterProducer">Hayao Miyazaki</option>
-          <option value="Toru Hara" class="filterProducer">Toru Hara</option>
-          <option value="Toshio Suzuki" class="filterProducer">Toshio Suzuki</option>
-          <option value="Yoshiaki Nishimura" class="filterProducer">Yoshiaki Nishimura</option>
-        </select>
-  
-        <label for="" class="order"></label>
-          <select class="btnOrder" id="selectOrder">
-            <option disabled selected>Order</option>
-            <option value="alphabetical" class="">A - Z</option>
-            <option value="alphabetical" class="alphabetical">Z - A</option>
-          </select>
+          <nav class="btn" id="btn">
+          
+              <label for="" class="producer"></label>
+              <select class="btnproducer" id="selectProducer">
+                <option disabled selected>Producer</option>
+                <option value="all" class="allProducer">All</option>
+                <option value="Isao Takahata" class="filterProducer">Isao Takahata</option>
+                <option value="Hayao Miyazaki" class="filterProducer">Hayao Miyazaki</option>
+                <option value="Toru Hara" class="filterProducer">Toru Hara</option>
+                <option value="Toshio Suzuki" class="filterProducer">Toshio Suzuki</option>
+                <option value="Yoshiaki Nishimura" class="filterProducer">Yoshiaki Nishimura</option>
+              </select>
+
+          </nav>
+
+          <nav>
+            <label for="" class="order"></label>
+            <select class="btnOrder" id="selectOrder">
+              <option disabled selected>Order</option>
+              <option value="alphabetical" class="">A - Z</option>
+              <option value="alphabetical" class="alphabetical">Z - A</option>
+            </select> 
+            </nav>
           </section>
     </nav>
       <main>
@@ -64,3 +76,4 @@
 </body>
   
   </html>
+  
