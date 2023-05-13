@@ -8,15 +8,14 @@
 }
 
 /*header*/
-  header {
-    text-align: center;
 
-  }
+    .banner
+    {  
+      width: 100%; 
+    }
+  
  /*navegador*/
-  .banner
-  {  
-    width: 100%; 
-  }
+ 
   nav {
     background-color: #eaeaea;
     color: #190808;
