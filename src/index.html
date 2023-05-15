@@ -12,22 +12,20 @@
   </head>
   <body >
     <!-- header -->
-    <section class="header" id="home">
-        <header id="header"><img src="./img/banner.png" class="banner" alt="Banner de totoro en fondo turqueza - Ghibli Dreams ">  </header>  
-    </section>
+        <header>
+        <img src="./img/banerd.jpg" class="banner" alt="Banner de totoro en fondo turqueza - Ghibli Dreams ">
+         
       <!-- navegador -->
-      <section class="button">
-        <nav>
-   <!--<a href="#home"><img src="./img/web.png" alt="#home" class="home"></a>-->
-        </nav>
         <nav>
         <form class="searchForm" action="#" >
-          <input type="text" id="searchFilm"  name="search" placeholder="Search and press the button" autocomplete="off">
-          <button type="submit">Search a film</button>
+          <label class="searchF">
+          <input type="text" id="searchFilm" name="search" placeholder="Search" autocomplete="off">
+          <button class="btnsearchForm" type="submit">Search a film</button>
+        </label>
         </form>
-        <section class="btn" id="btn">
-            <label for="" ></label>
-            <select class="btnproducer" id="selectProducer">
+
+        <label for="" ></label>
+            <select class="searchForm2" id="selectProducer">
               <option disabled selected>Producer</option>
               <option value="all" class="allProducer">All</option>
               <option value="Isao Takahata" class="filterProducer">Isao Takahata</option>
@@ -36,17 +34,15 @@
               <option value="Toshio Suzuki" class="filterProducer">Toshio Suzuki</option>
               <option value="Yoshiaki Nishimura" class="filterProducer">Yoshiaki Nishimura</option>
             </select>
-        </section>
-
-      <section class="btn">
+        
           <label for="" ></label>
-          <select class="btnOrder" id="selectOrder">
+          <select class="searchForm2" id="selectOrder">
             <option disabled selected>Order</option>
             <option value="alphabetical" class="">A - Z</option>
             <option value="alphabetical" class="alphabetical">Z - A</option>
-          </select>
-        </section>
+          </select>  
   </nav>
+</header>
 
   <main class="container">
     <section class="title">
@@ -58,6 +54,7 @@
     <section class="root" id="root">
     </section>
   </main>
+     <!-- footer --> 
 <footer>
   <img class="logobottom" src="img/Logofoot.png" alt="logo">
   <p class="copyright">Created by Yanet & Yohana</p>
