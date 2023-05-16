@@ -11,7 +11,7 @@ export const getFilmsData = () => {
   });
 };
 
-
+//función de filtrar por productor
 export const getFilmsByProducer = (producer) => {
   if (producer === 'all') {
     return getFilmsData(); 
@@ -19,8 +19,21 @@ export const getFilmsByProducer = (producer) => {
     return ghibli.films.filter(film => film.producer === producer).map(film => {
       return {
         title: film.title,
-        poster: film.poster
+        poster: film.poster,
+        
       }
     });
   }
 };
+
+//función de filtrar por film para el buscador
+export const getFilmsByTitle = {
+  byNameFilms: (listOfFilms, nameFilms) => {
+    const search = nameFilms.toLowerCase();
+    const filteredFilms = listOfFilms.filter(films => films.title.toLowerCase().startsWith(search));
+    return filteredFilms;
+  }
+};
+
+
+
