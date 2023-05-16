@@ -1,5 +1,5 @@
 /*  GENERAL*/
-{ 
+*{ 
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,7 @@ nav form {
 
 input[type="text"] {
   width: 312px;
-  height: 46px;
+  height: 36px;
   border-radius: 10px;
   border: 1px solid rgb(248, 248, 248);
   box-shadow: 0px 0px 5px 0px #48AEF0;
@@ -43,36 +43,36 @@ input[type="text"] {
 }
 
 nav button[type="submit"] {
-  width: 312px;
-  height: 46px;
-  border-radius: 10px;
-  padding: 0px 20px 0px 20px;
-  background-color: rgb(45, 25, 25);
-  margin: 10px 2px 10px 10px;
-  font-size: 1.3em;
-  color: rgb(229, 229, 229);
-  margin-bottom: 3px;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-}
+    width: 312px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    background-color: #48aef0;
+    margin: 10px 2px 10px 10px;
+    font-size: 1.3em;
+    color: #eee;
+    margin-bottom: 3px;
+    text-align: center;
+    border: 1px solid rgb(248, 248, 248);
+    box-shadow: 0px 0px 3px 0px rgb(45, 25, 25);
+    }
+
 
 .searchForm2
  {
-  flex-grow: 1;
-  width: 300px;
-  height: 48px;
-  background: rgb(45, 25, 25);
-  box-shadow: 0px 0px 5px 1px rgb(229, 229, 229);
-  border: 1px solid #48AEF0;
-  color: rgb(229, 229, 229);
+  width: 312px;
+  height: 36px;
   border-radius: 10px;
-  margin: 10px;
-  margin-bottom: 3px;
-  padding: 0px 20px;
-  text-align: center;
+  padding: 0px 20px 0px 20px;
+  background-color: #48aef0;
+  margin: 10px 2px 10px 10px;
   font-size: 1.3em;
-}
+  color: #eee;
+  margin-bottom: 3px;
+  text-align: center;
+  border: 1px solid rgb(248, 248, 248);
+  box-shadow: 0px 0px 3px 0px rgb(45, 25, 25);
+  }
 
 .btnStart {
   width: 50px;
@@ -86,11 +86,13 @@ h1 {
   font-size: 30px;
   text-align: center;
   margin-bottom: 2rem;
+  margin: 20px;
 }
 
 p {
   font-size: 20px;
   text-align: center;
+  margin: 10px;
 }
 
 .subtitle{ 
@@ -119,9 +121,10 @@ img {
   align-items: center;
   margin: 10px;
   padding: 10px;
-  border: 1px solid gray;
-  box-shadow: 2px 2px gray;
+  border: 1px solid #48AEF0;
+  box-shadow: 2px 2px #48AEF0;;
   width: 300px;
+  border-radius: 4%;
 }
 
 .card h2 {
@@ -142,13 +145,19 @@ img {
   text-align: justify;
 }
 
+.card img:hover  {
+  position: relative;
+  box-shadow: 0px 0px 30px 10px #a9d8f8;;
+  transition: .5s;
+  bottom: 15px;
+}
+
 /* footer */
 footer {
   background-color: #121313;
   display: flex;
   justify-content: space-between;
   color: white;
-  font-size: 12px;
   align-items: center;
   margin-top: 20px;
   padding-top: 3px;
@@ -158,12 +167,15 @@ footer {
 
 .logobottom {
   margin-left: 15px;
+  width: 6%;
+  height: auto;
 }
 
-.copyrighttext {
+.copyright {
   text-align: center;
   text-shadow: slategrey;
-  margin-top: 40px;
+  font-size: 15px;
+  
 }
 
 .socialfooter {
