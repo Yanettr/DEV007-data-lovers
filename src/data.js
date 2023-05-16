@@ -6,7 +6,10 @@ export const getFilmsData = () => {
     return {
       title: film.title,
       poster: film.poster,
-      description:film.description
+      description:film.description,
+      producer: film.producer,
+      director: film.director,
+      release_date: film.release_date
     }
   });
 };
@@ -20,7 +23,10 @@ export const getFilmsByProducer = (producer) => {
       return {
         title: film.title,
         poster: film.poster,
-        
+        description:film.description,
+        producer: film.producer,
+        director: film.director,
+        release_date: film.release_date
       }
     });
   }

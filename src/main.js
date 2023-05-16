@@ -9,8 +9,8 @@ filmsData.forEach(data => {
   const img = document.createElement('img');
   h2.textContent = data.title;
   img.src = data.poster;
-  div.appendChild(h2)
-  div.appendChild(img)
+  div.appendChild(h2);
+  div.appendChild(img);
 
   document.getElementById("root").appendChild(div);
 });
@@ -22,20 +22,29 @@ selectProducer.addEventListener('change', (event) => {
   const filteredFilms = getFilmsByProducer(selectedProducer);
   document.getElementById("root").textContent = "";
   filteredFilms.forEach(data => {
-    const h2 = document.createElement('h2');
-    const img = document.createElement('img');
-    const p = document.createElement('p');
-    h2.textContent = data.title;
-    img.src = data.poster;
-    p.textContent = data.description;
-
-    document.getElementById("root").appendChild(h2);
-    document.getElementById("root"). appendChild(img);
-    document.getElementById("root"). appendChild(p);
+  const div = document.createElement('article');
+  div.classList.add('card');
+  const h2 = document.createElement('h2');
+  const img = document.createElement('img');
+  const ins = document.createElement('ins');
+  const strong = document.createElement('strong');
+  const em = document.createElement('em');
+  const p = document.createElement('p');
+  h2.textContent = data.title;
+  img.src = data.poster; 
+  ins.textContent = "Producer: " + data.producer;
+  strong.textContent = "Director: " + data.director;
+  em.textContent = "Release Date: " + data.release_date;
+  p.textContent = "Description: " + data.description;
+  div.appendChild(h2);
+  div.appendChild(img);
+  div.appendChild(ins);
+  div.appendChild(strong);
+  div.appendChild(em); 
+  div.appendChild(p);   
+  document.getElementById("root"). appendChild(div);
   });
 });
-
-
 
 const searchForm = document.querySelector('.searchForm');
 searchForm.addEventListener('submit', handleSearch);
