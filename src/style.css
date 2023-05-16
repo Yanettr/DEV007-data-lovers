@@ -1,7 +1,10 @@
 /*  GENERAL*/
-body {
+{ 
   margin: 0;
   padding: 0;
+}
+
+body {
   background-color: #eee;
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -98,56 +101,47 @@ p {
   background-color:#48AEF0;
 }
 /* body*/
-#root {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-left: 40px;
-    margin-bottom: 50px;  
-    font-size: 18px;
-    flex-wrap:wrap;
+
+img {
+  width: 80%;
+  height: auto;
 }
 
-#root img {
-  width: 25em;
-  height: 35em;
-  margin: 15px; 
-  border-radius: 4%;
+.root {
   display: flex;
-  box-shadow: 0px 0px 10px 2px rgb(116, 111, 111);
-  flex-flow: column wrap;
-  background-color: rgba(32, 30, 36);
-  cursor: pointer;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-  .card{
-  border:#48AEF0;
-  }
-#root h2 {
-    color: rgb(189, 186, 186);
-    font-size: 1.5em;
-    width: 90%;
-    margin: auto;
-    font-weight: bold;
-    } 
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px gray;
+  width: 300px;
+}
 
-#root p {
-  color: #052e2f;
-  width: 50vh;
-  display: block;
-  justify-content: flex-start;
-  margin-left: 15px;
-  font-size: 25px;
+.card h2 {
+  font-size: 1.5rem;
+  margin: 10px;
   text-align: center;
 }
 
-#root img:hover  {
-  background-color: rgba(105, 9, 202, 0.484);
-  box-shadow: 8px 8px 8px #3308677b;
-  animation: card 1s ease-in-out infinite alternate;
-  -webkit-animation: card 1s ease-in-out infinite alternate;
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px;
 }
-  
+
+.card p {
+  font-size: 1rem;
+  margin: 10px;
+  text-align: justify;
+}
+
 /* footer */
 footer {
   background-color: #121313;
