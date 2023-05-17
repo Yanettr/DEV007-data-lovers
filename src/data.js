@@ -37,6 +37,7 @@ export const getFilmsByTitle = {
   byNameFilms: (listOfFilms, nameFilms) => {
     const search = nameFilms.toLowerCase();
     const filteredFilms = listOfFilms.filter(films => films.title.toLowerCase().startsWith(search));
+    return filteredFilms;
   }
 };
 
