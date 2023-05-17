@@ -70,7 +70,7 @@ nav button[type="submit"] {
   margin-bottom: 3px;
   text-align: center;
   border: 1px solid rgb(248, 248, 248);
-  box-shadow: 0px 0px 3px 0px rgb(45, 25, 25);
+  box-shadow: 0px 0px 3px 0px rgb(185, 178, 178);
   }
 
 .btnStart {
@@ -78,7 +78,6 @@ nav button[type="submit"] {
   height: 60px;
   display: flex;
 }
-
 
 /* Titulo y subtítulo */
 h1 {
@@ -121,9 +120,14 @@ img {
   margin: 10px;
   padding: 10px;
   border: 1px solid #48AEF0;
-  box-shadow: 2px 2px #48AEF0;;
+  box-shadow: 2px 2px #48AEF0;
   width: 300px;
-  border-radius: 4%;
+  border-radius: 30px;
+  padding: 3em 2.5em;
+  gap:1em;
+  place-items: center;
+  transform: var(--transform);
+  transition: var(--transition);
 }
 
 .card h2 {
@@ -183,5 +187,16 @@ footer {
   list-style: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
