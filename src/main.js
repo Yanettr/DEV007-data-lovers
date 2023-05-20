@@ -12,6 +12,7 @@ filmsData.forEach(data => {
   div.appendChild(h2);
   div.appendChild(img);
 
+  console.log(document.getElementById("root"));
   document.getElementById("root").appendChild(div);
 });
 
@@ -80,12 +81,12 @@ function displayFilms(films) {
 
 const selectOrder = document.getElementById('selectOrder');
 selectOrder.addEventListener('change', (event) => {
-   const orderedTitles = event.target.value;
-   console.log(orderedTitles);
-   const orderedFilms = getFilmsInOrder(orderedTitles);
-   document.getElementById("root").textContent = "";
+  const orderedTitles = event.target.value;
+  //console.log(orderedTitles);
+  const orderedFilms = getFilmsInOrder(orderedTitles);
+  document.getElementById("root").textContent = "";
 
-   orderedFilms.forEach(film => {
+  orderedFilms.forEach(film => {
     const div = document.createElement('article');
     div.classList.add('card');
     const h2 = document.createElement('h2');
@@ -95,6 +96,5 @@ selectOrder.addEventListener('change', (event) => {
     div.appendChild(h2);
     div.appendChild(img);
     document.getElementById("root").appendChild(div);
-   });
+  });
 });
-

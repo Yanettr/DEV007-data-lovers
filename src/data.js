@@ -42,30 +42,26 @@ export const getFilmsByTitle = {
 };
 
 export const getFilmsInOrder = (order) => {
-  console.log(order);
+  //console.log(order);
   const orderedFilms = ghibli.films.slice();
   orderedFilms.sort((a,b) => { 
     const titleA = a.title.toUpperCase();
     const titleB = b.title.toUpperCase();
-      if (order === "Z-A") { 
-        if (titleA > titleB) {
-          return -1;
-        }
-        else if (titleA < titleB) {
-          return 1;
-        }}
-      else if (order === "A-Z"){ 
-        if (titleA < titleB) {
-          return -1;
-        }
-        else if (titleA > titleB) {
-          return 1;
-        }};
-        return 0;
-      });
-    return orderedFilms;  
-  };  
-
-
-
-
+    if (order === "Z-A") { 
+      if (titleA > titleB) {
+        return -1;
+      }
+      else if (titleA < titleB) {
+        return 1;
+      }}
+    else if (order === "A-Z"){ 
+      if (titleA < titleB) {
+        return -1;
+      }
+      else if (titleA > titleB) {
+        return 1;
+      }}
+    return 0;
+  });
+  return orderedFilms;  
+};
