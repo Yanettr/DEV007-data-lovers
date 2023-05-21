@@ -12,6 +12,7 @@ filmsData.forEach(data => {
   div.appendChild(h2);
   div.appendChild(img);
 
+  console.log(document.getElementById("root"));
   document.getElementById("root").appendChild(div);
 });
 
@@ -31,7 +32,7 @@ selectProducer.addEventListener('change', (event) => {
     const em = document.createElement('em');
     const p = document.createElement('p');
     h2.textContent = data.title;
-    img.src = data.poster; 
+    img.src = data.poster;
     ins.textContent = "Producer: " + data.producer;
     strong.textContent = "Director: " + data.director;
     em.textContent = "Release Date: " + data.release_date;
@@ -40,8 +41,8 @@ selectProducer.addEventListener('change', (event) => {
     div.appendChild(img);
     div.appendChild(ins);
     div.appendChild(strong);
-    div.appendChild(em); 
-    div.appendChild(p);   
+    div.appendChild(em);
+    div.appendChild(p);
     document.getElementById("root"). appendChild(div);
   });
 });
