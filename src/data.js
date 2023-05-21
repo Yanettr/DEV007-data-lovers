@@ -17,7 +17,7 @@ export const getFilmsData = () => {
 //función de filtrar por productor
 export const getFilmsByProducer = (producer) => {
   if (producer === 'all') {
-    return getFilmsData(); 
+    return getFilmsData();
   } else {
     return ghibli.films.filter(film => film.producer === producer).map(film => {
       return {
@@ -36,25 +36,25 @@ export const getFilmsByProducer = (producer) => {
 export const getFilmsByTitle = {
   byNameFilms: (listOfFilms, nameFilms) => {
     const search = nameFilms.toLowerCase();
-    const filteredFilms = listOfFilms.filter(films => films.title.toLowerCase().startsWith(search));
+    const filteredFilms = listOfFilms.filter(films => films.title.toLowerCase().includes(search));
     return filteredFilms;
   }
 };
 
 export const getFilmsInOrder = (order) => {
-  //console.log(order);
+  console.log(order);
   const orderedFilms = ghibli.films.slice();
-  orderedFilms.sort((a,b) => { 
+  orderedFilms.sort((a,b) => {
     const titleA = a.title.toUpperCase();
     const titleB = b.title.toUpperCase();
-    if (order === "Z-A") { 
+    if (order === "Z-A") {
       if (titleA > titleB) {
         return -1;
       }
       else if (titleA < titleB) {
         return 1;
       }}
-    else if (order === "A-Z"){ 
+    else if (order === "A-Z"){
       if (titleA < titleB) {
         return -1;
       }
@@ -63,5 +63,5 @@ export const getFilmsInOrder = (order) => {
       }}
     return 0;
   });
-  return orderedFilms;  
+  return orderedFilms;
 };
