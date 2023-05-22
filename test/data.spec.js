@@ -1,4 +1,4 @@
-import { getFilmsByTitle,computeStats } from '../src/data.js';
+import { getFilmsByTitle } from '../src/data.js';
 
 describe('getFilmsByTitle', ()=> {
   const data = [
