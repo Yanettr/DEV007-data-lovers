@@ -1,34 +1,30 @@
-/*  GENERAL*/
-*{ 
+*{
   margin: 0;
   padding: 0;
 }
-
 body {
   background-color: #eee;
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
-
 /*header*/
-.banner {  
-  width: 100%;
-}
-  
+    .banner
+    {
+      width: 100%;
+    }
  /*navegador*/
  nav {
   color: #190808;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 input[type="text"] {
   width: 312px;
   height: 36px;
   border-radius: 10px;
   border: 1px solid rgb(248, 248, 248);
   box-shadow: 0px 0px 5px 0px #48AEF0;
-  padding: 0px 20px 0px 20px;
   background-color: rgba(251, 253, 253, 0.709);
   margin: 10px 2px 10px 10px;
   font-size: 1.3em;
@@ -36,14 +32,27 @@ input[type="text"] {
   margin-bottom: 3px;
   text-align: center;
 }
-
+nav button[type="submit"] {
+    width: 312px;
+    height: 36px;
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    background-color: #48AEF0;
+    margin: 10px 2px 10px 10px;
+    font-size: 1.3em;
+    color: #eee;
+    margin-bottom: 3px;
+    text-align: center;
+    border: 1px solid rgb(248, 248, 248);
+    box-shadow: 0px 0px 3px 0px rgb(45, 25, 25);
+    }
 .searchForm2
  {
   width: 312px;
   height: 36px;
   border-radius: 10px;
   padding: 0px 20px 0px 20px;
-  background-color: #48aef0;
+  background-color: #48AEF0;
   margin: 10px 2px 10px 10px;
   font-size: 1.3em;
   color: #eee;
@@ -52,13 +61,11 @@ input[type="text"] {
   border: 1px solid rgb(248, 248, 248);
   box-shadow: 0px 0px 3px 0px rgb(185, 178, 178);
   }
-
 .btnStart {
   width: 50px;
   height: 60px;
   display: flex;
 }
-
 /* Titulo y subtítulo */
 h1 {
   font-size: 30px;
@@ -66,14 +73,12 @@ h1 {
   margin-bottom: 2rem;
   margin: 20px;
 }
-
 p {
   font-size: 20px;
   text-align: center;
   margin: 10px;
 }
-
-.subtitle{ 
+.subtitle{
   font-size: 25px;
   color: #eee;
   text-align: center;
@@ -81,18 +86,15 @@ p {
   background-color:#48AEF0;
 }
 /* body*/
-
 img {
   width: 80%;
   height: auto;
 }
-
 .root {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .card {
   display: flex;
   flex-direction: column;
@@ -106,34 +108,30 @@ img {
   padding: 3em 2.5em;
   gap:1em;
   place-items: center;
-
+  transform: var(--transform);
+  transition: var(--transition);
 }
-
 .card h2 {
   font-size: 1.5rem;
   margin: 10px;
   text-align: center;
 }
-
 .card img {
   max-width: 100%;
   height: auto;
   margin: 10px;
 }
-
 .card p {
   font-size: 1rem;
   margin: 10px;
   text-align: justify;
 }
-
 .card img:hover  {
   position: relative;
-  box-shadow: 0px 0px 30px 10px #a9d8f8;;
+  box-shadow: 0px 0px 30px 10px #A9D8F8;;
   transition: .5s;
   bottom: 15px;
 }
-
 /*Estilos de estadistica*/
 .articleContenedor{
   display: flex;
@@ -145,7 +143,7 @@ img {
   position: absolute;
   right: 700px;
     top: -51px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .divGender, .divCharacters, .divAverage{
@@ -161,28 +159,65 @@ img {
   background-color: white;
   font-weight: 700; 
 }
-
 /* footer */
-footer {
+.footer {
   background-color: #121313;
   display: flex;
   color: white;
   align-items: center;
-  width: 100%;
+  margin-top: 10px;
+  padding-top: 3px;
 }
-
 .logobottom {
-  margin-left: 755px;
-  width: 4%;
+  margin-left: 735px;
+  width: 3%;
   height: auto;
 }
-
 .copyright {
-  justify-content: center;
-  right: 700px;
+  text-align: center;
   text-shadow: slategrey;
   font-size: 15px;
-  font-weight: bold;
-  margin-left: 15px;
+}
+
+@media (max-width:750px) {
+  .footer {
+    background-color: #121313;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 3px;
+  }
+  .logobottom {
+    margin-left: 735px;
+    width: 3%;
+    height: auto;
+  }
+  .copyright {
+    text-align: center;
+    text-shadow: slategrey;
+    font-size: 15px;
+  }
+}
+
+@media (max-width:500px) {
+  .footer {
+    background-color: #121313;
+    display: flex;
+    color: white;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 3px;
+  }
+  .logobottom {
+    margin-left: 735px;
+    width: 3%;
+    height: auto;
+  }
+  .copyright {
+    text-align: center;
+    text-shadow: slategrey;
+    font-size: 15px;
+  }
 }
 
