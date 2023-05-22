@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css" />
   <link rel="shortcut icon" href="./img/Totoro1.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,17 +20,15 @@
     <!-- navegador -->
     <nav>
       <img src="img/Totoro.ico" alt="icono de totoro-home" id="btnStart" class="btnStart">
+      <label class="searchF">
+        <input type="text" id="searchFilmInput" name="search" placeholder="Search" autocomplete="off">
+      </label>
 
-      <form class="searchForm" action="#">
-        <label class="searchF">
-          <input type="text" id="searchFilm" name="search" placeholder="Search" autocomplete="off">
-          <button class="btnsearchForm" type="submit">Search a film</button>
-        </label>
-      </form>
+      <button class="searchForm2" id="btnHome">Home</button>
 
       <label for=""></label>
       <select class="searchForm2" id="selectProducer">
-        <option disabled selected>Producer</option>
+        <option disabled selected >Producer</option>
         <option value="all" class="allProducer">All</option>
         <option value="Isao Takahata" class="filterProducer">Isao Takahata</option>
         <option value="Hayao Miyazaki" class="filterProducer">Hayao Miyazaki</option>
@@ -41,10 +39,12 @@
 
       <label for=""></label>
       <select class="searchForm2" id="selectOrder">
-        <option disabled selected>Order</option>
+        <option disabled selected >Order</option>
         <option value="A-Z" class="alphabetical">A - Z</option>
         <option value="Z-A" class="alphabetical">Z - A</option>
       </select>
+      
+      <button class="searchForm2" id="btnCuriosities">Curiosities</button>
     </nav>
   </header>
 
@@ -61,14 +61,9 @@
   </main>
   <!-- footer -->
   <footer>
-    <img class="logobottom" src="img/Logofoot.png" alt="logo">
+    <img class="logobottom" src="img/Logofoot.png" alt="logo pequeño del studio Ghibli">
     <p class="copyright">Created by Yanet and Yohana</p>
-    <ul class="socialfooter">
-      <li><img src="img/instagram.png" alt="instagram"></li>
-      <li><img src="img/twitter.png" alt="twitter"></li>
-    </ul>
   </footer>
   <script src="main.js" type="module"></script>
 </body>
-
 </html>
