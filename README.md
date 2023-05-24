@@ -109,10 +109,8 @@ Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escr
 ### Prototipo en alta fidelidad versión escritorio
 Fotos del prototipo de alta fidelidad📱:
 ![Idea en Figma](src/img/figma_escritorio.png)
-Link a Figma: https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
 ### Prototipo en alta fidelidad versión para móvil 
  ![screen1](src/img/prototipo_movil.png)
-Link a Figma: https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
 
  ****
 ### Testeo en usuarios
