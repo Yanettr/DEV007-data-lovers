@@ -19,7 +19,7 @@ Encontrarás más información en: https://es.wikipedia.org/wiki/Studio_Ghibli ,
 El proyecto consiste en la construcción de una página web que se adapte a diversos formatos de pantallas. 
 Nuestro objetivo es crear un sitio web llamado "Ghibli Dreams" donde los usuarios puedan encontrar un directorio de 20 películas del Studio Ghibli, incluyendo información detallada como el año de lanzamiento, el director, el productor y otras características relevantes. Queremos proporcionar a los usuarios una fuente confiable y completa de información sobre las películas de Studio Ghibli en un solo lugar.
 
-El proyecto se ha desarrollado utilizando HTML puro, CSS y Javascript basada en data de formato Json. Como versión final nuestra página web permite visualizar la data, filtrarla, ordenarla y ver el cálculo agregado.
+El proyecto se ha desarrollado utilizando HTML, CSS y Javascript basada en data de formato Json. Como versión final nuestra página web permite visualizar la data, filtrarla, ordenarla y ver el cálculo agregado.
 
 # 3. Componentes del proyecto 
 **3.1 Objetivo General:**
@@ -118,7 +118,7 @@ Permite a la usuaria interactuar para obtener la infomación que necesita.
 
 * CSS: Se agregaron estilos a cada sección correspondiente. La interfaz sigue los fundamentos del Visual Design.
 
-Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas: móviles, tablets y desktops. Se trabajó con media Queries y grillas.
+Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas.
 
 * JavaScript: se encuentra una hoja con nombre data.js la cual contiene toda la lógica y las funciones de la web, la cual se exporta a otra hoja con nombre de main.js, que contiene toda la conexión con el DOM y sus eventos para que el usuario pueda interactuar con ella.
 
