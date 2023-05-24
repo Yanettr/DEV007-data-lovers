@@ -15,7 +15,6 @@
 
 Encontrarás más información en: https://es.wikipedia.org/wiki/Studio_Ghibli , https://www.ghibli.jp/ , https://www.netflix.com/pe/browse/genre/81227213.
 
-
 # 2. Resumen de Proyecto
 El proyecto consiste en la construcción de una página web que se adapte a diversos formatos de pantallas. 
 Nuestro objetivo es crear un sitio web llamado "Ghibli Dreams" donde los usuarios puedan encontrar un directorio de 20 películas del Studio Ghibli, incluyendo información detallada como el año de lanzamiento, el director, el productor y otras características relevantes. Queremos proporcionar a los usuarios una fuente confiable y completa de información sobre las películas de Studio Ghibli en un solo lugar.
@@ -33,7 +32,6 @@ Realizar una interfaz que me permita visualizar los posters con informacion de l
 * Revisión de Objetivos de aprendizaje.
 
 ## Presentación
-
  ![screen1](src/img/portada.png)
 
 ***
@@ -45,7 +43,6 @@ Nuestro proceso creativo consta principalmente de 4 etapas fundamentales:
 * Búsqueda de referencias
 
 ## Historias de usuario
-
 Para desarrollar "Ghibli Dreams", las historias de usuario son el primer paso para construir la web.
 se ha identificado las siguientes necesidades y requerimientos de los usuarios, expresados en forma de historias de usuario:
 
@@ -60,7 +57,6 @@ se ha identificado las siguientes necesidades y requerimientos de los usuarios, 
   El usuario podrá hacer uso del scroll para ver los demás posters.
 
 ### Historia N°2: "Yo como usuario, quiero poder buscar y explorar las 20 películas de Studio Ghibli disponibles filtrar los films producidas por cada productor.
-
 * Criterios de aceptación:
   Las y los usuarios verán un buscador donde podrán escribir el nombre del film  y encontrar un boton desplegable donde se filtre por productor a buscar.
   El usuario podrá hacer la búsqueda de otro poster usando el buscador.
@@ -73,7 +69,6 @@ Hacer el test para comprobar si llama a todos los posters.
 La historia se testeó en usuarios reales y se hicieron los cambios resultantes del testeo.
 
 ### Historia N°3: "Yo como usuario, quiero revisar el listado de películas por orden alfabético"
-
 * Definición de terminado: 
   Al dar clic al botón "order" debe mostrar las opciones de orden de la A-Z y Z-A.  
   Los posters del film que se muestren debe ordenarse según A-Z o Z-A.
@@ -86,13 +81,11 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
   Según la opción escogida, la galería se actualizarán para encontrar al poster del film deseado.
 
 ### Historia N°4: "Yo como usuario, quiero conocer el porcentaje de los personajes por especie, género y rating de los 20 films de Studio Ghibli."
-
 * Definición de terminado: Se incluyen tanto el porcentaje por especie dividido en: humano vs no huamano, por género: femenino vs masculino por rating de las peliculas: debajo del 89% y por encima o igual a 89% hechas por el estudio Ghibli.
 
 * Criterios de aceptación: Que los porcentajes se muestren de acuerdo al porcentaje.
  ****
 ## 5. Diseño de la Interfaz de Usuario
-
 Fotos del prototipo de baja fidelidad📱: 
 
 ### Prototipo idea en papel y lápiz 
@@ -114,12 +107,10 @@ Fotos del prototipo de alta fidelidad📱:
 
  ****
 ### Testeo en usuarios
-
 Se realizó testeo con usuarios entre 15 a 40 años, quienes indican que los colores siguen la identidad gráfica del estudio Ghibli, que es agradable e intuitiva. Como sugerencia nos indicaron cambiaramos la imagen que iba en la portada. 
 ***
 
 ## 6. Implementación de la Interfaz de Usuario (HTML/CSS/JS)
-
 La implementación consta en:
 
 * HTML: Muestra la data en una interfaz mediante listas.
@@ -134,27 +125,20 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 ### HTML
 
 - [✔] **Uso de HTML semántico**
-
   <details><summary>Links</summary><p>
-
   * [HTML semántico](https://curriculum.laboratoria.la/es/topics/html/02-html5/02-semantic-html)
   * [Semantics - MDN Web Docs Glossary](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
 </p></details>
 
 ### CSS
-
 - [✔] **Uso de selectores de CSS**
-
   <details><summary>Links</summary><p>
-
   * [Intro a CSS](https://curriculum.laboratoria.la/es/topics/css/01-css/01-intro-css)
   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
 - [✔] **Modelo de caja (box model): borde, margen, padding**
-
   <details><summary>Links</summary><p>
-
   * [Box Model & Display](https://curriculum.laboratoria.la/es/topics/css/01-css/02-boxmodel-and-display)
   * [The box model - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
   * [Introduction to the CSS box model - MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model)
@@ -163,9 +147,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 </p></details>
 
 - [✔] **Uso de flexbox en CSS**
-
   <details><summary>Links</summary><p>
-
   * [A Complete Guide to Flexbox - CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   * [Flexbox Froggy](https://flexboxfroggy.com/#es)
   * [Flexbox - MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
@@ -174,18 +156,14 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 ### Web APIs
 
 - [✔] **Uso de selectores del DOM**
-
   <details><summary>Links</summary><p>
-
   * [Manipulación del DOM](https://curriculum.laboratoria.la/es/topics/browser/02-dom/03-1-dom-methods-selection)
   * [Introducción al DOM - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
   * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
 - [✔] **Manejo de eventos del DOM (listeners, propagación, delegación)**
-
   <details><summary>Links</summary><p>
-
   * [Introducción a eventos - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Events)
   * [EventTarget.addEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
   * [EventTarget.removeEventListener() - MDN](https://developer.mozilla.org/es/docs/Web/API/EventTarget/removeEventListener)
@@ -193,9 +171,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 </p></details>
 
 - [✔] **Manipulación dinámica del DOM**
-
   <details><summary>Links</summary><p>
-
   * [Introducción al DOM](https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model/Introduction)
   * [Node.appendChild() - MDN](https://developer.mozilla.org/es/docs/Web/API/Node/appendChild)
   * [Document.createElement() - MDN](https://developer.mozilla.org/es/docs/Web/API/Document/createElement)
@@ -207,9 +183,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 ### JavaScript
 
 - [✔] **Diferenciar entre tipos de datos primitivos y no primitivos**
-
 - [✔] **Arrays (arreglos)**
-
   <details><summary>Links</summary><p>
 
   * [Arreglos](https://curriculum.laboratoria.la/es/topics/javascript/04-arrays)
@@ -222,40 +196,30 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 </p></details>
 
 - [✔] **Objetos (key, value)**
-
   <details><summary>Links</summary><p>
-
   * [Objetos en JavaScript](https://curriculum.laboratoria.la/es/topics/javascript/05-objects/01-objects)
 </p></details>
 
 - [✔] **Variables (declaración, asignación, ámbito)**
-
   <details><summary>Links</summary><p>
-
   * [Valores, tipos de datos y operadores](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/01-values-variables-and-types)
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
 - [✔] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
-
   <details><summary>Links</summary><p>
-
   * [Estructuras condicionales y repetitivas](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/01-conditionals-and-loops)
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
 - [✔] **Uso de bucles/ciclos (while, for, for..of)**
-
   <details><summary>Links</summary><p>
-
   * [Bucles (Loops)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/02-loops)
   * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
 - [✔] **Funciones (params, args, return)**
-
   <details><summary>Links</summary><p>
-
   * [Funciones (control de flujo)](https://curriculum.laboratoria.la/es/topics/javascript/02-flow-control/03-functions)
   * [Funciones clásicas](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/01-classic)
   * [Arrow Functions](https://curriculum.laboratoria.la/es/topics/javascript/03-functions/02-arrow)
@@ -263,7 +227,6 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 </p></details>
 
 - [✔] **Pruebas unitarias (unit tests)**
-
   <details><summary>Links</summary><p>
 
   * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
@@ -278,45 +241,32 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 </p></details>
 
 - [✔] **Uso de linter (ESLINT)**
-
 - [✔] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
-
 - [✔] **Diferenciar entre expresiones (expressions) y sentencias (statements)**
 
 ### Control de Versiones (Git y GitHub)
 
 - [✔] **Git: Instalación y configuración**
-
 - [✔] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
-
 - [✔] **Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)**
-
 - [✔] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
-
 - [✔] **GitHub: Despliegue con GitHub Pages**
 
   <details><summary>Links</summary><p>
-
   * [Sitio oficial de GitHub Pages](https://pages.github.com/)
 </p></details>
-
 - [✔] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
 
 ### Centrado en el usuario
-
 - [✔] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
 ### Diseño de producto
-
 - [✔] **Crear prototipos de alta fidelidad que incluyan interacciones**
-
 - [✔] **Seguir los principios básicos de diseño visual**
 
 
 ## 7.	Resultado del proyecto
-
 **7.1 Interacción del usuario con la página:**
-
 El objetivo principal del usuario es la de poder visualizar las 20 películas producidas por Studios Ghibli por lo que contendrá las diguientes funciones; 
 
 *	 Visualización de las portadas de las películas con sus respectivos nombres.
@@ -336,6 +286,6 @@ La página web deberá ser amigable a la percepción visual del usuario, por lo 
 
 * Usar una paleta de colores neutros para no causar conflicto con los poster coloridos de las películas.
 * Se hizo responsive para múltiples dispositivos.
-* 
+
 ## Visualización del Proyecto.
 En este <a href="https://yanettr.github.io/DEV007-data-lovers/">link</a>  podrás interactuar con la página.
