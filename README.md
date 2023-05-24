@@ -83,7 +83,7 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
 ### Historia N°4: "Yo como usuario, quiero conocer el porcentaje de los personajes por especie, género y rating de los 20 films de Studio Ghibli."
 * Definición de terminado: Se incluyen tanto el porcentaje por especie dividido en: humano vs no huamano, por género: femenino vs masculino por rating de las peliculas: debajo del 89% y por encima o igual a 89% hechas por el estudio Ghibli.
 
-* Criterios de aceptación: Que los porcentajes se muestren de acuerdo al porcentaje.
+* Criterios de aceptación: Que los porcentajes se muestren de acuerdo al promedio por especie, género y rating.
  ****
 ## 5. Diseño de la Interfaz de Usuario
 Fotos del prototipo de baja fidelidad📱: 
