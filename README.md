@@ -2,17 +2,18 @@
 ***
 ## Índice
 * [1. Preámbulo](#1-Preámbulo)
-* [2. Resumen Proyecto](#1-Resumen-de-proyecto)
-* [3. Investigacion UX](#2-Investigacion-UX)
-* [4. Diseño de la Interfaz de Usuario](#3-objetivos-de-aprendizaje)
-* [5. Implementación de la Interfaz de Usuario](#4-implementacion-de-la-interfaz-de-usuario)
-
+* [2. Resumen Proyecto](#2-Resumen-de-proyecto)
+* [3. Componentes del proyecto ](#3-Componentes-del-proyecto )
+* [4. Investigacion UX](#4-Investigacion-UX)
+* [5. Diseño de la Interfaz de Usuario](#5-objetivos-de-aprendizaje)
+* [6. Implementación de la Interfaz de Usuario](#6-implementacion-de-la-interfaz-de-usuario)
+* [7. Resultado del proyecto](#5-Resultado-del-proyecto)
 ***
 
 # 1. Preámbulo
-🙋💬 Hola somos Yanet y Yohana...Bienvenidos al universo  Ghibli de nuestro proyecto Data Lovers! Antes de empezar, queremos explicar que  Si hay algo que caracteriza el anime de este siglo XXI es la influencia que estudio Ghibli y Hayao Miyazaki han tenido en él. Prácticamente todos los directores de renombre se sienten influidos por sus películas, lo que nos ha dado un anime maduro y con una calidad indiscutible. Nuestra pagina te muestra 20 films te hara recordar  los grandes hitos del estudio: ecología, monstruos, humanismo, viajes a mundos inimaginables, ternura e imaginación en una tanda de films que vale la pena revisar una a una. Te invitamos a recordar estas piezas de arte y animarte a que las veas, precisamos que los datos se nos fue entregado.
+🙋💬 Hola somos Yanet y Yohana...Bienvenidos al mundo Ghibli de nuestro proyecto Data Lovers! Antes de empezar, queremos explicar que  Si hay algo que caracteriza el anime de este siglo XXI es la influencia que estudio Ghibli y Hayao Miyazaki han tenido en él. Prácticamente todos los directores de renombre se sienten influidos por sus películas, lo que nos ha dado un anime de calidad indiscutible. Nuestra página te muestra 20 posters de films con detalles acerca del director, productor, descripción entre otros, te hará recordar  los grandes hitos del estudio: ecología, monstruos, humanismo, viajes a mundos inimaginables, ternura e imaginación. Te invitamos a recordar estas piezas de arte y animarte a que las veas por primera vez o verlas nuevamente.
 
-Encontrará más información en Wikipedia https://es.wikipedia.org/wiki/Studio_Ghibli , https://www.ghibli.jp/ , https://www.netflix.com/pe/browse/genre/81227213.
+Encontrarás más información en: https://es.wikipedia.org/wiki/Studio_Ghibli , https://www.ghibli.jp/ , https://www.netflix.com/pe/browse/genre/81227213.
 
 
 # 2. Resumen de Proyecto
@@ -21,14 +22,24 @@ Nuestro objetivo es crear un sitio web llamado "Ghibli Dreams" donde los usuario
 
 El proyecto se ha desarrollado utilizando HTML puro, CSS y Javascript basada en data de formato Json. Como versión final nuestra página web permite visualizar la data, filtrarla, ordenarla y ver el cálculo agregado.
 
+# 3. Componentes del proyecto 
+**3.1 Objetivo General:**
+Realizar una interfaz que me permita visualizar los posters con informacion de los films de Studios Ghibli desde cualquier dispositivo.
+
+**3.2 Objetivos específicos:**
+*	Definir las necesidades del usuario para poder determinar los componentes que contendrá la interfaz.
+*	Maquetación de la página web.
+* Creación de Historias de Usuario.
+* Revisión de Objetivos de aprendizaje.
+
 ## Presentación
 
  ![screen1](src/img/portada.png)
 
 ***
-# 3.Investigacion UX 
+# 4.Investigación UX 
 Nuestro proceso creativo consta principalmente de 4 etapas fundamentales:
-* Diseño Centrado en el Usuario (DCU) - Historias de usuario
+* Historias de usuario
 * Prototipado en baja y alta fidelidad
 * Testeo de prototipo con usuarios
 * Búsqueda de referencias
@@ -56,7 +67,6 @@ se ha identificado las siguientes necesidades y requerimientos de los usuarios, 
   En caso del filtrado por productor solo se mostrará lo seleccionado.
 
 * Definición de terminado:
-
 El buscador arrojará las coincidencias.
 La galería debe mostrar los posters según la búsqueda.
 Hacer el test para comprobar si llama a todos los posters.
@@ -65,14 +75,12 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
 ### Historia N°3: "Yo como usuario, quiero revisar el listado de películas por orden alfabético"
 
 * Definición de terminado: 
-
   Al dar clic al botón "order" debe mostrar las opciones de orden de la A-Z y Z-A.  
   Los posters del film que se muestren debe ordenarse según A-Z o Z-A.
   Hacer el test para comprobar si ordena correctamente.
   Se testeó en usuarios reales y se hicieron los cambios resultantes del testeo. 
 
 * Criterios de aceptación: 
-
   Los y las usuarias verán un menú desplegable para ordenar los posters alfabéticamente.
   Al dar clic, el menú desplegable muestra las opciones A-Z y Z-A. Podrán escoger entre las 2 opciones.
   Según la opción escogida, la galería se actualizarán para encontrar al poster del film deseado.
@@ -83,43 +91,36 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
 
 * Criterios de aceptación: Que los porcentajes se muestren de acuerdo al porcentaje.
 
-## 4. Diseño de la Interfaz de Usuario
+## 5. Diseño de la Interfaz de Usuario
 
 Fotos del prototipo de baja fidelidad📱: 
 
 ### Prototipo idea en papel y lápiz 
  ![Idea en papel](src/img/img_papelylapiz.jpg)
-
-
 ### Prototipo de baja fidelidad 
 ![Idea en papel](src/img/baja_fidelidad.png)
 
 
-### Prototipo de alta fidelidad
+### Prototipo de alta fidelidad 
 Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escritorio y la otra trabajó la versión mobile.
   Después del Test de Usuario como dupla decidimos modificar algunos elementos a partir del feedback recibido.
   Finalmente nos basamos en el prototipo ya modificado para dar paso a la estructura del HTML y CSS.
 
-  <details><summary>Link a Figma</summary><p>
-
-  * [link a Figma]:https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
-
-#### Prototipo en alta fidelidad versión escritorio
+### Prototipo en alta fidelidad versión escritorio
+Fotos del prototipo de alta fidelidad📱:
 ![Idea en Figma](src/img/figma_escritorio.png)
-
- ***
-
-#### Prototipo en alta fidelidad versión para móvil 
+Link a Figma: https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
+### Prototipo en alta fidelidad versión para móvil 
  ![screen1](src/img/prototipo_movil.png)
-  Link Figma:https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&node-id=0-1&t=lIEItjVIVmnWdYRW-0
+Link a Figma: https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
 
  ****
-### TESTEO EN USUARIOS
+### Testeo en usuarios
 
 Se realizó testeo con usuarios entre 15 a 40 años, quienes indican que los colores siguen la identidad gráfica del estudio Ghibli, que es agradable e intuitiva. Como sugerencia nos indicaron cambiaramos la imagen que iba en la portada. 
 ***
 
-## 5. Implementación de la Interfaz de Usuario (HTML/CSS/JS)
+## 6. Implementación de la Interfaz de Usuario (HTML/CSS/JS)
 
 La implementación consta en:
 
@@ -134,7 +135,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 
 ### HTML
 
-- [ ] **Uso de HTML semántico**
+- [✔] **Uso de HTML semántico**
 
   <details><summary>Links</summary><p>
 
@@ -144,7 +145,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 
 ### CSS
 
-- [ ] **Uso de selectores de CSS**
+- [✔] **Uso de selectores de CSS**
 
   <details><summary>Links</summary><p>
 
@@ -152,7 +153,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [CSS Selectors - MDN](https://developer.mozilla.org/es/docs/Web/CSS/CSS_Selectors)
 </p></details>
 
-- [ ] **Modelo de caja (box model): borde, margen, padding**
+- [✔] **Modelo de caja (box model): borde, margen, padding**
 
   <details><summary>Links</summary><p>
 
@@ -163,7 +164,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [display - CSS Tricks](https://css-tricks.com/almanac/properties/d/display/)
 </p></details>
 
-- [ ] **Uso de flexbox en CSS**
+- [✔] **Uso de flexbox en CSS**
 
   <details><summary>Links</summary><p>
 
@@ -174,7 +175,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 
 ### Web APIs
 
-- [ ] **Uso de selectores del DOM**
+- [✔] **Uso de selectores del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -183,7 +184,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Localizando elementos DOM usando selectores - MDN](https://developer.mozilla.org/es/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 </p></details>
 
-- [ ] **Manejo de eventos del DOM (listeners, propagación, delegación)**
+- [✔] **Manejo de eventos del DOM (listeners, propagación, delegación)**
 
   <details><summary>Links</summary><p>
 
@@ -193,7 +194,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [El objeto Event](https://developer.mozilla.org/es/docs/Web/API/Event)
 </p></details>
 
-- [ ] **Manipulación dinámica del DOM**
+- [✔] **Manipulación dinámica del DOM**
 
   <details><summary>Links</summary><p>
 
@@ -207,9 +208,9 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 
 ### JavaScript
 
-- [ ] **Diferenciar entre tipos de datos primitivos y no primitivos**
+- [✔] **Diferenciar entre tipos de datos primitivos y no primitivos**
 
-- [ ] **Arrays (arreglos)**
+- [✔] **Arrays (arreglos)**
 
   <details><summary>Links</summary><p>
 
@@ -222,14 +223,14 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Array.prototype.reduce() - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 </p></details>
 
-- [ ] **Objetos (key, value)**
+- [✔] **Objetos (key, value)**
 
   <details><summary>Links</summary><p>
 
   * [Objetos en JavaScript](https://curriculum.laboratoria.la/es/topics/javascript/05-objects/01-objects)
 </p></details>
 
-- [ ] **Variables (declaración, asignación, ámbito)**
+- [✔] **Variables (declaración, asignación, ámbito)**
 
   <details><summary>Links</summary><p>
 
@@ -237,7 +238,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Variables](https://curriculum.laboratoria.la/es/topics/javascript/01-basics/02-variables)
 </p></details>
 
-- [ ] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
+- [✔] **Uso de condicionales (if-else, switch, operador ternario, lógica booleana)**
 
   <details><summary>Links</summary><p>
 
@@ -245,7 +246,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Tomando decisiones en tu código — condicionales - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/conditionals)
 </p></details>
 
-- [ ] **Uso de bucles/ciclos (while, for, for..of)**
+- [✔] **Uso de bucles/ciclos (while, for, for..of)**
 
   <details><summary>Links</summary><p>
 
@@ -253,7 +254,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Bucles e iteración - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Loops_and_iteration)
 </p></details>
 
-- [ ] **Funciones (params, args, return)**
+- [✔] **Funciones (params, args, return)**
 
   <details><summary>Links</summary><p>
 
@@ -263,14 +264,14 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [Funciones — bloques de código reutilizables - MDN](https://developer.mozilla.org/es/docs/Learn/JavaScript/Building_blocks/Functions)
 </p></details>
 
-- [ ] **Pruebas unitarias (unit tests)**
+- [✔] **Pruebas unitarias (unit tests)**
 
   <details><summary>Links</summary><p>
 
   * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
 </p></details>
 
-- [ ] **Módulos de ECMAScript (ES Modules)**
+- [✔] **Módulos de ECMAScript (ES Modules)**
 
   <details><summary>Links</summary><p>
 
@@ -278,48 +279,64 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
   * [export - MDN](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/export)
 </p></details>
 
-- [ ] **Uso de linter (ESLINT)**
+- [✔] **Uso de linter (ESLINT)**
 
-- [ ] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
+- [✔] **Uso de identificadores descriptivos (Nomenclatura y Semántica)**
 
-- [ ] **Diferenciar entre expresiones (expressions) y sentencias (statements)**
+- [✔] **Diferenciar entre expresiones (expressions) y sentencias (statements)**
 
 ### Control de Versiones (Git y GitHub)
 
-- [ ] **Git: Instalación y configuración**
+- [✔] **Git: Instalación y configuración**
 
-- [ ] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
+- [✔] **Git: Control de versiones con git (init, clone, add, commit, status, push, pull, remote)**
 
-- [ ] **Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)**
+- [✔] **Git: Integración de cambios entre ramas (branch, checkout, fetch, merge, reset, rebase, tag)**
 
-- [ ] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
+- [✔] **GitHub: Creación de cuenta y repos, configuración de llaves SSH**
 
-- [ ] **GitHub: Despliegue con GitHub Pages**
+- [✔] **GitHub: Despliegue con GitHub Pages**
 
   <details><summary>Links</summary><p>
 
   * [Sitio oficial de GitHub Pages](https://pages.github.com/)
 </p></details>
 
-- [ ] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
+- [✔] **GitHub: Colaboración en Github (branches | forks | pull requests | code review | tags)**
 
 ### Centrado en el usuario
 
-- [ ] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
+- [✔] **Diseñar y desarrollar un producto o servicio poniendo a las usuarias en el centro**
 
 ### Diseño de producto
 
-- [ ] **Crear prototipos de alta fidelidad que incluyan interacciones**
+- [✔] **Crear prototipos de alta fidelidad que incluyan interacciones**
 
-- [ ] **Seguir los principios básicos de diseño visual**
-  
-#### Diseño de experiencia de usuario (User Experience Design)
-* Investigación con usuarios
-* Principios de diseño visual
+- [✔] **Seguir los principios básicos de diseño visual**
 
-#### Herramientas
-* [Git](https://git-scm.com/)
-* [GitHub](https://github.com/)
-* [GitHub Pages](https://pages.github.com/)
-* [Node.js](https://nodejs.org/)
-* [Jest](https://jestjs.io/)
+
+## 7.	Resultado del proyecto
+
+**7.1 Interacción del usuario con la página:**
+
+El objetivo principal del usuario es la de poder visualizar las 20 películas producidas por Studios Ghibli por lo que contendrá las diguientes funciones; 
+
+*	 Visualización de las portadas de las películas con sus respectivos nombres.
+*	 Filtro de películas por productores
+*	 Ordenado de películas de forma ascendente y descendente. 
+*  Datos estadísticos en formato de Datos curiosos acerca de las películas.
+
+Secuencia de uso de la interfaz; 
+
+ - Al ingresar a la página web, se deberá visualizar todas las portadas de las películas con sus respectivos nombres. 
+ - Si el usuario desea solamente conocer las películas producidas por un determinado productor, podrá filtrarlas haciendo click en el botón de "Producers" la cual mostrará una lista desplegable donde se visualizará todos los productores a elegir o ingresar el nombre del film en el buscador. 
+ - Si el usuario desea poder ordenar de forma ascendente o descente las películas, podrá hacerlo haciendo click en el botón de "Order".
+ - Si el usuario desea conocer algunas curiosidades acerca de la película, podrá hacerlo haciendo click en "Curiositis".
+
+**7.2 Interacción visual del usuario con la página:**
+La página web deberá ser amigable a la percepción visual del usuario, por lo que se optó en;
+
+* Usar una paleta de colores neutros para no causar conflicto con los poster coloridos de las películas.
+* Se hizo responsive para múltiples dispositivos.
+
+** Link de página:**
