@@ -1,7 +1,7 @@
-import { getFilmsData, getFilmsByProducer, getFilmsByTitle, getFilmsInOrder,computeStats } from './data.js';
+import { getFilmsData, getFilmsByProducer, getFilmsByTitle, getFilmsInOrder, computeStats } from './data.js';
 // declaración de variable que muestra el array de películas al cargar en DOM
 const filmsData = getFilmsData();
-loadInitialData()
+loadInitialData();
 
 const selectProducer = document.getElementById('selectProducer');
 selectProducer.addEventListener('change', (event) => {
@@ -66,7 +66,6 @@ function displayFilms(films) {
 const selectOrder = document.getElementById('selectOrder');
 selectOrder.addEventListener('change', (event) => {
   const orderedTitles = event.target.value;
-  console.log(orderedTitles);
   const orderedFilms = getFilmsInOrder(orderedTitles);
   document.getElementById("root").textContent = "";
 

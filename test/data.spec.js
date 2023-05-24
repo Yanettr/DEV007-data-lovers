@@ -1,4 +1,4 @@
-import { getFilmsByTitle,computeStats } from '../src/data.js';
+import { getFilmsByTitle, computeStats, getFilmsData, getFilmsByProducer, getFilmsInOrder } from '../src/data.js';
 
 const data = [
   {
@@ -66,15 +66,15 @@ const data = [
   },
 ];
 
-describe('getFilmsByTitle', ()=> {
+describe('getFilmsByTitle', () => {
 
   it('debería ser un objeto', () => {
     expect(typeof getFilmsByTitle).toBe('object');
   });
 
-  describe('byNameFilms', ()=> {
+  describe('byNameFilms', () => {
 
-    it ('deberia ser function', ()=>{
+    it('deberia ser function', () => {
       expect(typeof getFilmsByTitle.byNameFilms).toBe('function');
     })
 
@@ -130,14 +130,11 @@ describe('getFilmsByTitle', ()=> {
       ];
       expect(getFilmsByTitle.byNameFilms(data, "My")).toStrictEqual(expectedResult);
     });
-
   });
-
 });
 
-
-describe('computeStats', ()=> {
-  it('debería ser un function', () => {
+describe('computeStats', () => {
+  it('debería ser una function', () => {
     expect(typeof computeStats).toBe('function');
   });
 
@@ -150,11 +147,70 @@ describe('computeStats', ()=> {
       ratingAbove89: '67%',
       ratingBelow90: '33%',
     }
-  
     expect(computeStats(data)).toEqual(expectedResult);
   });
 });
 
+describe('Test para la funcion getFilmsData', () => {
+  it('Es una funcion que trae los valores especificados', () => {
+    expect(typeof getFilmsData).toBe('function');
+  });
+
+  it('la funcion getFilmsData Debe devolver un arreglo de objetos con datos de películas', () => {
+    const filmsData = {
+      "title": "Castle in the Sky",
+      "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
+      "director": "Hayao Miyazaki",
+      "producer": "Isao Takahata",
+      "poster": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg",
+      "release_date": "1986"
+    };
+    expect(getFilmsData()).toEqual(expect.arrayContaining([expect.objectContaining(filmsData)]));
+  });
+});
+
+describe('getFilmsByProducer', () => {
+  it('Es una funcion para filtrar por productores', () => {
+    expect(typeof getFilmsByProducer).toBe('function');
+  });
+
+  it('La funcion getFilmsByProducer solo debe retornar las peliculas del productor elegido', () => {
+    const filmsData = {
+      "title": "Castle in the Sky",
+      "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world.",
+      "director": "Hayao Miyazaki",
+      "producer": "Isao Takahata",
+      "poster": "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/Castle_in_the_Sky.jpg",
+      "release_date": "1986"
+    };
+    expect(getFilmsByProducer("Isao Takahata")).toContainEqual(filmsData);
+  });
+  it('La funcion getFilmsByProducer devuelve un array con las peliculas del productor escogido', () => {
+    //expect(typeof getFilmsByProducer("Isao Takahata")).toEqual('Array');
+    expect(typeof getFilmsByProducer("Isao Takahata")).toEqual('object');
+  });
+});
+
+describe('getFilmsInOrder', () => {
+  it('Es una funcion para ordenar alfabeticamente las peliculas', () => {
+    expect(typeof getFilmsInOrder).toBe('function');
+  });
+
+  it('La funcion getFilmsInOrder debe ordenar las peliculas de la A-Z', () => {
+    const orderedFilms = getFilmsInOrder("A-Z");
+    const titleFirstFilm = orderedFilms[0].title;
+    const titleLastFilm = orderedFilms[orderedFilms.length - 1].title;
+    expect(titleFirstFilm).toBe("Castle in the Sky");
+    expect(titleLastFilm).toBe("Whisper of the Heart");
+  });
+  it('La funcion getFilmsInOrder debe ordenar las peliculas de la Z-A', () => {
+    const orderedFilms = getFilmsInOrder("Z-A");
+    const titleFirstFilm = orderedFilms[0].title;
+    const titleLastFilm = orderedFilms[orderedFilms.length - 1].title;
+    expect(titleFirstFilm).toBe("Whisper of the Heart");
+    expect(titleLastFilm).toBe("Castle in the Sky");
+  });
+});
 
 
 
