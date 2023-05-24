@@ -7,7 +7,7 @@
 * [4. Investigacion UX](#4-Investigacion-UX)
 * [5. Diseño de la Interfaz de Usuario](#5-objetivos-de-aprendizaje)
 * [6. Implementación de la Interfaz de Usuario](#6-implementacion-de-la-interfaz-de-usuario)
-* [7. Resultado del proyecto](#5-Resultado-del-proyecto)Resultado del proyecto
+* [7. Resultado del proyecto](#5-Resultado-del-proyecto)
 ***
 
 # 1. Preámbulo
@@ -27,9 +27,8 @@ El proyecto se ha desarrollado utilizando HTML puro, CSS y Javascript basada en 
 Realizar una interfaz que me permita visualizar los posters con informacion de los films de Studios Ghibli desde cualquier dispositivo.
 
 **3.2 Objetivos específicos:**
-*	Reconocimiento del tipo de usuario regular.
 *	Definir las necesidades del usuario para poder determinar los componentes que contendrá la interfaz.
-*	Maquetación de la página web, definiendo sus componentes.
+*	Maquetación de la página web.
 * Creación de Historias de Usuario.
 * Revisión de Objetivos de aprendizaje.
 
@@ -68,7 +67,6 @@ se ha identificado las siguientes necesidades y requerimientos de los usuarios, 
   En caso del filtrado por productor solo se mostrará lo seleccionado.
 
 * Definición de terminado:
-
 El buscador arrojará las coincidencias.
 La galería debe mostrar los posters según la búsqueda.
 Hacer el test para comprobar si llama a todos los posters.
@@ -77,14 +75,12 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
 ### Historia N°3: "Yo como usuario, quiero revisar el listado de películas por orden alfabético"
 
 * Definición de terminado: 
-
   Al dar clic al botón "order" debe mostrar las opciones de orden de la A-Z y Z-A.  
   Los posters del film que se muestren debe ordenarse según A-Z o Z-A.
   Hacer el test para comprobar si ordena correctamente.
   Se testeó en usuarios reales y se hicieron los cambios resultantes del testeo. 
 
 * Criterios de aceptación: 
-
   Los y las usuarias verán un menú desplegable para ordenar los posters alfabéticamente.
   Al dar clic, el menú desplegable muestra las opciones A-Z y Z-A. Podrán escoger entre las 2 opciones.
   Según la opción escogida, la galería se actualizarán para encontrar al poster del film deseado.
@@ -111,8 +107,7 @@ Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escr
   Finalmente nos basamos en el prototipo ya modificado para dar paso a la estructura del HTML y CSS.
 
   <details><summary>Link a Figma</summary><p>
-
-  * [link a Figma]:https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
+  * https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
 
 #### Prototipo en alta fidelidad versión escritorio
 ![Idea en Figma](src/img/figma_escritorio.png)
@@ -120,7 +115,8 @@ Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escr
  ***
 #### Prototipo en alta fidelidad versión para móvil 
  ![screen1](src/img/prototipo_movil.png)
-  Link Figma:https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&node-id=0-1&t=lIEItjVIVmnWdYRW-0
+   <details><summary>Link a Figma</summary><p>
+  * https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
 
  ****
 ### Testeo en usuarios
