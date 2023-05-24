@@ -106,11 +106,10 @@ Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escr
   Después del Test de Usuario como dupla decidimos modificar algunos elementos a partir del feedback recibido.
   Finalmente nos basamos en el prototipo ya modificado para dar paso a la estructura del HTML y CSS.
 
-  <details><summary>Link a Figma</summary><p>
-  * https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
-
 #### Prototipo en alta fidelidad versión escritorio
 ![Idea en Figma](src/img/figma_escritorio.png)
+<details><summary>Link a Figma</summary><p>
+  * https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
 
  ***
 #### Prototipo en alta fidelidad versión para móvil 
