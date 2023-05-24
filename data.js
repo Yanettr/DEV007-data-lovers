@@ -44,7 +44,6 @@ export const getFilmsByTitle = {
 };
 
 export const getFilmsInOrder = (order) => {
-  console.log(order);
   const orderedFilms = ghibli.films.slice();
   orderedFilms.sort((a,b) => {
     const titleA = a.title.toUpperCase();

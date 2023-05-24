@@ -6,6 +6,8 @@ body {
   background-color: #eee;
   font-family: 'Outfit', sans-serif;
   font-family: 'Roboto', sans-serif;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
 }
 /*header*/
 .banner{
@@ -152,7 +154,9 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  letter-spacing: 5px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  text-align: center;
   color: rgb(245, 241, 241);
 }
 @media (max-width:750px) {
