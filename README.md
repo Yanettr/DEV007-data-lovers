@@ -132,6 +132,7 @@ Es responsive, se visualiza sin problemas desde distintos tamaños de pantallas:
 
 * JavaScript: se encuentra una hoja con nombre data.js la cual contiene toda la lógica y las funciones de la web, la cual se exporta a otra hoja con nombre de main.js, que contiene toda la conexión con el DOM y sus eventos para que el usuario pueda interactuar con ella.
 
+  
 ### HTML
 - [ ] **Uso de HTML semántico**
   <details><summary>Links</summary><p>
