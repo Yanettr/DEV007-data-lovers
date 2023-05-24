@@ -37,7 +37,7 @@ Realizar una interfaz que me permita visualizar los posters con informacion de l
  ![screen1](src/img/portada.png)
 
 ***
-# 4.Investigacion UX 
+# 4.Investigación UX 
 Nuestro proceso creativo consta principalmente de 4 etapas fundamentales:
 * Historias de usuario
 * Prototipado en baja y alta fidelidad
