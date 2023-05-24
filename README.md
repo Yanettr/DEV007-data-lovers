@@ -90,7 +90,7 @@ La historia se testeó en usuarios reales y se hicieron los cambios resultantes 
 * Definición de terminado: Se incluyen tanto el porcentaje por especie dividido en: humano vs no huamano, por género: femenino vs masculino por rating de las peliculas: debajo del 89% y por encima o igual a 89% hechas por el estudio Ghibli.
 
 * Criterios de aceptación: Que los porcentajes se muestren de acuerdo al porcentaje.
-
+ ****
 ## 5. Diseño de la Interfaz de Usuario
 
 Fotos del prototipo de baja fidelidad📱: 
@@ -100,7 +100,7 @@ Fotos del prototipo de baja fidelidad📱:
 ### Prototipo de baja fidelidad 
 ![Idea en papel](src/img/baja_fidelidad.png)
 
-
+ ****
 ### Prototipo de alta fidelidad 
 Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escritorio y la otra trabajó la versión mobile.
   Después del Test de Usuario como dupla decidimos modificar algunos elementos a partir del feedback recibido.
@@ -109,10 +109,8 @@ Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escr
 ### Prototipo en alta fidelidad versión escritorio
 Fotos del prototipo de alta fidelidad📱:
 ![Idea en Figma](src/img/figma_escritorio.png)
-Link a Figma: https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
 ### Prototipo en alta fidelidad versión para móvil 
  ![screen1](src/img/prototipo_movil.png)
-Link a Figma: https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
 
  ****
 ### Testeo en usuarios
