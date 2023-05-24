@@ -7,7 +7,8 @@
 * [4. Investigacion UX](#4-Investigacion-UX)
 * [5. Diseño de la Interfaz de Usuario](#5-objetivos-de-aprendizaje)
 * [6. Implementación de la Interfaz de Usuario](#6-implementacion-de-la-interfaz-de-usuario)
-* [7. Resultado del proyecto](#5-Resultado-del-proyecto)
+* [7. Resultado del proyecto](#7-Resultado-del-proyecto)
+* [8.  Visualización del Proyecto](#8-Resultado-del-proyecto)
 ***
 
 # 1. Preámbulo
@@ -287,5 +288,5 @@ La página web deberá ser amigable a la percepción visual del usuario, por lo 
 * Usar una paleta de colores neutros para no causar conflicto con los poster coloridos de las películas.
 * Se hizo responsive para múltiples dispositivos.
 
-## Visualización del Proyecto.
+## 8. Visualización del Proyecto.
 En este <a href="https://yanettr.github.io/DEV007-data-lovers/">link</a>  podrás interactuar con la página.
