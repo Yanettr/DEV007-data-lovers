@@ -101,19 +101,18 @@ Fotos del prototipo de baja fidelidad📱:
 ![Idea en papel](src/img/baja_fidelidad.png)
 
 
-### Prototipo de alta fidelidad
+### Prototipo de alta fidelidad 
 Nos dividimos los prototipos de alta fidelidad: una trabajó la versión de escritorio y la otra trabajó la versión mobile.
   Después del Test de Usuario como dupla decidimos modificar algunos elementos a partir del feedback recibido.
   Finalmente nos basamos en el prototipo ya modificado para dar paso a la estructura del HTML y CSS.
 
-#### Prototipo en alta fidelidad versión escritorio
+### Prototipo en alta fidelidad versión escritorio
+Fotos del prototipo de alta fidelidad📱:
 ![Idea en Figma](src/img/figma_escritorio.png)
-Link a Figma:https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
-
- ***
-#### Prototipo en alta fidelidad versión para móvil 
+Link a Figma: https://www.figma.com/file/Zv5CarpyCWkcvg3Ese635O/DATA-LOVERS?type=design&node-id=0-1&t=Urm0epjSQSbc95li-0
+### Prototipo en alta fidelidad versión para móvil 
  ![screen1](src/img/prototipo_movil.png)
-Link a Figma:https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
+Link a Figma: https://www.figma.com/file/ITTasGXv8iISzWN2ButKI7/Untitled?type=design&t=1GSZ4C5AjO0yaoPC-0
 
  ****
 ### Testeo en usuarios
