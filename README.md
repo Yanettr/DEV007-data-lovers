@@ -336,5 +336,6 @@ La página web deberá ser amigable a la percepción visual del usuario, por lo 
 
 * Usar una paleta de colores neutros para no causar conflicto con los poster coloridos de las películas.
 * Se hizo responsive para múltiples dispositivos.
-
-** Link de página:**
+* 
+## Visualización del Proyecto.
+En este <a href="https://yanettr.github.io/DEV007-data-lovers/">link</a>  podrás interactuar con la página.
