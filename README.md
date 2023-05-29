@@ -37,12 +37,7 @@ Realizar una interfaz que me permita visualizar los posters con informacion de l
 
 ***
 # 4.Investigación UX 
-Nuestro proceso creativo consta principalmente de 4 etapas fundamentales:
-* Historias de usuario
-* Prototipado en baja y alta fidelidad
-* Testeo de prototipo con usuarios
-* Búsqueda de referencias
-
+Nuestro proceso creativo consta de:
 ## Historias de usuario
 Para desarrollar "Ghibli Dreams", las historias de usuario son el primer paso para construir la web.
 se ha identificado las siguientes necesidades y requerimientos de los usuarios, expresados en forma de historias de usuario:
